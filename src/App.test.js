@@ -9,7 +9,6 @@ test('accessibility test for the application', async () => {
   render(<App/>, document.body)
   const results = await axe(document.body)
 
-  console.log(results);
   const violations = results.violations;
   const incomplete = results.incomplete;
 

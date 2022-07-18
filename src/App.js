@@ -1,5 +1,4 @@
 import logo from './logo.svg';
-import './App.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -10,23 +9,24 @@ if (process.env.NODE_ENV !== 'production') {
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div>
+      <header>
+        <img src={logo} style={{maxHeight: '100px'}} />
       </header>
 
       <h1 data-testid='heading'>Hello</h1>
-      <h3>How is it going?</h3>
+      <h3>How are you?</h3>
       <p>
         Edit <code>src/App.js</code> and save to reload.
       </p>
+      <p lang='pl'>Dzień dobry. Nie wiem czy to się uda... Niestety nie.</p>
       <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
       >
-        Learn React
+        Click here
       </a>
 
       <form>
