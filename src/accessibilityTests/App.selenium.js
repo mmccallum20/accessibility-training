@@ -44,7 +44,7 @@ const accessibilityTest = async () => {
 
     await driver.findElement(By.xpath("//*[@data-testid='heading']"));
 
-    setTimeout(() => {driver.quit();}, 1000);
+    setTimeout(() => {driver.quit();}, 2000);
 
 }
 

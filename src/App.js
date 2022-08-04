@@ -9,7 +9,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 function App() {
   return (
-    <div>
+    <div style={{margin: '20px'}}>
       <header>
         <img src={logo} style={{maxHeight: '100px'}} />
       </header>
