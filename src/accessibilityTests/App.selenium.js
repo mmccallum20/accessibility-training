@@ -31,7 +31,10 @@ const accessibilityTest = async () => {
                         else if (v.impact === 'critical') {
                             critical += 1;
                         }
-                        log += `* ${v.id} --- ${v.impact} --- ${v.help} --- ${v.helpUrl}`;
+                        log += `
+                        * ${v.id} --- ${v.impact} --- ${v.help} --- ${v.helpUrl}`;
+
+
                     }
                 )
                 console.log(`critical: ${critical}`);

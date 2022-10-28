@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import llama from './llama.jpeg';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -11,7 +11,7 @@ function App() {
   return (
     <div style={{margin: '20px'}}>
       <header>
-        <img src={logo} style={{maxHeight: '100px'}} />
+        <img src={llama} style={{maxHeight: '300px'}} />
       </header>
 
       <h1 data-testid='heading'>Hello</h1>
@@ -19,16 +19,18 @@ function App() {
       <p>
         Edit <code>src/App.js</code> and save to reload.
       </p>
-      <p lang='pl'>Dzień dobry. Nie wiem czy to się uda... Niestety nie.</p>
-      <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-      >
-        Click here
-      </a>
+        <p style={{color: '#D3D3D3'}}>This next link is really important and it'll change your life forever!</p>
+        <a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Click here
+        </a>
+        <br/>
 
+        <h4>Please add your details to the form:</h4>
       <form>
         {/*<form>*/}
           {/*<label htmlFor="fname">First name:</label><br/>*/}
@@ -38,6 +40,8 @@ function App() {
         {/*  <input type="submit" defaultValue='Submit' onClick={() => alert('thanks')}/>*/}
         {/*</form>*/}
       </form>
+        {/*<p style={{color: '#AD1C1A'}}>This next word is a <span style={{ textDecoration: 'overline'}}>*/}
+        {/*    <a href='#' style={{color: '#973130', textDecoration: 'underline'}}>link</a></span></p>*/}
     </div>
   );
 }
