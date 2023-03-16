@@ -11,7 +11,11 @@ function App() {
   return (
     <div style={{ margin: "20px" }}>
       <header>
-        <img src={llama} style={{ maxHeight: "300px" }} />
+        <img
+          src={llama}
+          alt="A photograph of a white llama with a light green background"
+          style={{ maxHeight: "300px" }}
+        />
       </header>
 
       <h1 data-testid="heading">Hello</h1>
@@ -19,7 +23,7 @@ function App() {
       <p>
         Edit <code>src/App.js</code> and save to reload.
       </p>
-      <p style={{ color: "#D3D3D3" }}>
+      <p style={{ color: "#006400" }}>
         This next link is really important and it'll change your life forever!
       </p>
       <a
